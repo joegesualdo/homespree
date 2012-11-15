@@ -1,2 +1,28 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<div id="home">
+	<div id="myCarousel" class="carousel slide">
+	  <!-- Carousel items -->
+	  <div class="carousel-inner">
+	    <div class="active item"><%=image_tag("painter.png", alt: "rails")%></div>
+	    <div class="item"><%=image_tag("flooring.png", alt: "rails")%></div>
+	    <div class="item"><%=image_tag("lawn.png", alt: "rails")%></div>
+	  </div>
+	  <!-- Carousel nav -->
+	  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+	  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+	</div>
+
+
+	<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span6 center">
+    	<h1>Home Owners</h1>
+ 			<button class="btn btn-large btn-block btn-primary" type="button"><%= link_to "Create a Project! It's Free!", '#', class: "whitetext" %></button>
+    </div>
+    <div class="span6 center">
+    	<h1>Contractors</h1>
+     <button class="btn btn-large btn-block btn-primary" type="button"><%= link_to "Find Work! It's Free!", '#', class: "whitetext" %></button>
+    </div>
+  </div>
+</div>
+
+</div>

@@ -1,1 +1,83 @@
 @import "bootstrap";
+
+
+/***************************
+Universal
+****************************/
+
+.center{
+	text-align:center;
+}
+
+body{
+	background: url(/assets/background.jpg) no-repeat;
+background-size: 100%;
+}
+
+
+/***************************
+HEADER
+****************************/
+
+#logo { 
+	float: left;
+	margin-right: 10px;
+	font-size:1.7em;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	padding-top: 9px;
+	font-weight: bold;
+	line-height: 1;
+}
+
+#logo:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+/***************************
+HOME
+****************************/
+
+#home{
+	margin-top:50px;
+}
+
+.whitetext{
+	color: white;
+}
+/***************************
+Footer
+****************************/
+
+footer{
+	margin-top: 45px;
+	padding-top: 5px;
+	color: #999;
+}
+
+footer a{
+	color: #555;
+}
+
+footer a:hover{
+	color: #FF66FF;
+}
+
+footer small{
+	float: left;
+	list-style: none;
+}
+
+footer ul{
+	float: right;
+	list-style: none;
+}
+
+footer ul li{
+	float:left;
+	margin-left: 10px;
+}
+
+
